@@ -1,0 +1,27 @@
+
+.navigation_header{
+  z-index: 9999;
+}
+
+.topo p {
+  z-index: 2;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 2px;
+  font-size: 44px;
+  position: absolute;
+  margin-top: -140px;
+  margin-left: 80px;
+}
+
+main {
+  margin-top: 20px;
+}
+
+.accordion-button {
+  background-color: #1A1E28;
+  color: #B6D0EE;
+}
+
+.meses-eventos {
+  margin-top: 80px;
+}

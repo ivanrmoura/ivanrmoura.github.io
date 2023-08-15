@@ -1,0 +1,54 @@
+
+.navigation_header{
+  z-index: 9999;
+}
+
+
+.topo p {
+  z-index: 2;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 2px;
+  font-size: 44px;
+  position: absolute;
+  margin-top: -140px;
+  margin-left: 80px;
+}
+
+
+/* Estilização dos cards */
+.main {
+  margin-top: 80px;
+}
+
+.col-md-3 {
+  display: grid;
+  margin: auto;
+  border: 1px solid white;
+  border-radius: 4px;
+  margin-bottom: 40px;
+  align-items: center;
+  background-color: #464646d3;
+}
+
+.info {
+  border: 1px solid white;
+}
+
+.info p {
+  margin: 10px;
+}
+
+.info a {
+  margin: 10px;
+}
+
+.top-1{
+  padding: 12px;
+}
+
+
+
+.mapa {
+  text-align: center;
+  margin-top: 40px;
+}

@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+/* Estilizações gerais */
+body {
+  margin: 0px;
+  color: #332F2E;
+}
+
+img {
+  width: 100%;
+}
+
+.navigation_header{
+  z-index: 9999;
+}
+
+.container-fluid {
+  padding: 0px;
+}
+
+a {
+  transition: .5s;
+  text-decoration: none;
+}
+
+.links {
+  color: black;
+}
+
+:root{
+  --color-white: #F3F4F5;
+  --color-dark1: #F3F4F5;
+  --color-dark2: #1A1E28;
+  --color-dark3: #414141;
+  --color-dark4: #1c1c1c;
+  --color-dark5: #343434;
+  --color-purple: #B6D0EE;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-dark1);
+  color: var(--color-white);
+}
+.img_logo_header{
+  width: 45px;
+}
+.header,
+.navigation_header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container-fluid {
+  padding: 0px;
+}
+
+.header{
+  background-color: var(--color-dark2);
+  justify-content: space-between;
+  padding: 0 10%;
+  height: 72px;
+}
+.navigation_header{
+  gap: 4em;
+  z-index: 2;
+}
+
+
+.content{
+  padding-top: 5em;
+  text-align: center;
+  height: 10vh;
+  transition: 1s;
+}
+.navigation_header a{
+  text-decoration: none;
+  color: var(--color-purple);
+  transition: 1s;
+  font-weight: 700;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+.navigation_header a:hover{
+  color: var(--color-white);
+}
+
+.btn_icon_header{
+  background: transparent;
+  border: none;
+  color: var(--color-white);
+  cursor: pointer;
+  display: none;
+}
+@media screen and (max-width: 1300px) {
+  .navigation_header{
+      position: absolute;
+      flex-direction: column !important;
+      top: 0;
+      background: var(--color-dark5);
+      height: 100%;
+      width: 35vw;
+      padding: 1em;
+      align-items: start;
+      animation-duration: 1s;
+      margin-left: -100vw;
+  }
+  .btn_icon_header{
+      display: block;
+  }
+}
+@keyframes showSidebar {
+  from {margin-left: -100vw;}
+  to {margin-left: -10vw;}
+}
+
+.logo_texto {
+ margin-top: 15px;
+ font-weight: 700;
+ font-family: 'Roboto';
+ color: #B6D0EE;
+ font-size: 20px;
+}
+
+h1, p, h2, h3, h4, h5, h6, a {
+  font-family: 'Roboto';
+}
